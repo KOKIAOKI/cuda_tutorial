@@ -4,3 +4,7 @@ project(test)
 find_package(CUDA REQUIRED)
 
 CUDA_ADD_EXECUTABLE(test src/main.cu)
+
+add_executable(std_test
+  src/test.cpp
+ )
